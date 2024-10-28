@@ -76,6 +76,7 @@ header div a {
    color: white;
    padding: 10px 20px;
    text-decoration: none;
+   border-radius: 5px;
 }
 header div a:hover {
    background-color: #8662c7;
@@ -92,6 +93,10 @@ main {
    margin: 10px 5px;
    flex-grow: 1;
    background-color: white;
+}
+
+.card div {
+   padding: 20px 5px;
 }
 
 .card img {
@@ -111,7 +116,7 @@ main {
    font-size: 12px;
 }
 
-.social .heart {
+.social span {
    background-size: contain;
    background-repeat: no-repeat;
    padding-left: 25px;
